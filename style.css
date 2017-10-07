@@ -1,3 +1,7 @@
+.menu{
+	float:right;
+	margin:5px;
+}
 .header-main {
 	background-image: url("https://images.pexels.com/photos/236950/pexels-photo-236950.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
 	height: 200px;
