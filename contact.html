@@ -2,27 +2,68 @@
 <html>
 <head>
 	<title>Contact form</title>
+	 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla">
 	<style>
+		 #header {
+	      background-image: url("https://images.pexels.com/photos/236950/pexels-photo-236950.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+	      height: 200px;
+	      text-align: center;
+	      margin-bottom: 40px;
+		}
+		#contact-box{
+			width: 660px;
+			background: #1c1c1c;
+			padding: 20px 50px 20px 50px;
+			margin: 20px auto;
+			min-height: 500px;
+			height: auto !important;
+			height: 500px;
+  		}
+  		h1{
+	      text-align: center;
+	      color:#fff;
+	      padding-top:50px;
+	      font-weight:bold;
+	      font-size:70px;
+	      font-family: Karla;
+    	}
+    	#contact-box input, #contact-box textarea{
+		    padding: 5px;
+		    width: 400px;
+		    font-size: 35px;
+		    border: 2px solid #ccc;
+		    margin-bottom: 10px;
+		}
 		body{
 			background-color: #1c1c1c;
 	}
-		p{
-			color:#fff;
-		}
+		
 		form{
 			color:#fff;
+			font-family: Karla;
+			font-size:35px;
+		}
+		input{
+			font-size: 35px;
 		}
 
 	</style> 
 
 </head>
 <body>
-	<p>Lest's connect</p>
+	<div id="header">
+		<h1>Let's connect</h1>
+	</div>
 	<div id="contact-box">
 		<form action="/action_page_post.php" method="post">
-			  First name: <input type="text" name="fname" id="Fname"><br>
-			  Last name: <input type="text" name="lname" id="Lname"><br>
-			  Email: <input type="text" name="Email" id="Email"><br>
+			  <label for="Name">First name:</label>
+			  <input type="text" name="fname" id="Fname"><br>
+			  <label for="Last name">Last name:</label> 
+			  <input type="text" name="lname" id="Lname"><br>
+			  <label for="Email">Email:</label> 
+			  <input type="text" name="Email" id="Email"><br>
+			  <label for="Message">Message:</label><br />
+			  <textarea name="Message" rows="20" cols="20" id="Message"></textarea>
   				<input type="submit" value="Submit"><br>
 
 		</form>
