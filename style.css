@@ -1,0 +1,72 @@
+.header-main {
+	background-image: url("https://images.pexels.com/photos/236950/pexels-photo-236950.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+	height: 200px;
+	text-align: center;
+	font-family: Libre Baskerville;
+	margin-bottom: 40px;
+}
+body {
+    background-size: auto 700%;
+    background-color: #1c1c1c;
+    padding: 0;
+    margin: 0;
+}
+h1 {
+	color: #fff;
+	font-size: 70px;
+	opacity:1.5;
+}
+.header-main h1{
+	display: block;
+	margin: 0;
+	line-height: 200px;
+}
+.about-me{
+	padding-left: 12px;
+	text-align: left;
+	font-family: Libre Baskerville;
+	width: 40%;
+	position: relative;
+	display: inline-block;
+}
+p {
+    color: #FFF;
+    font-size: 20px;
+}
+
+a {
+    color: #8b7244;
+    font-size: 20px;
+}
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+strong {
+	text-transform: uppercase;
+	color: #8b7244;
+}
+ul {
+	list-style: none;
+}
+.image{
+	width: 50%
+}
+
+#picme {
+	float:right;
+	width:50%;
+	position: relative;
+	display:inline-block;
+}
+.gallery{
+	text-align:left;
+	padding-left: 40px;
+	font-family: Libre Baskerville;
+}
+img {
+    width: 100%;
+    height: auto;
+}
