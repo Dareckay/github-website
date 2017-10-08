@@ -1,7 +1,11 @@
 .menu{
 	float:right;
 	margin:5px;
+	font-family: Libre Baskerville;
 }
+.menu a {
+  	font-size: 25px;
+ }
 .header-main {
 	background-image: url("https://images.pexels.com/photos/236950/pexels-photo-236950.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
 	height: 200px;
@@ -19,6 +23,7 @@ h1 {
 	color: #fff;
 	font-size: 70px;
 	opacity:1.5;
+	font-family: Libre Baskerville;
 }
 .header-main h1{
 	display: block;
@@ -64,11 +69,6 @@ ul {
 	width:50%;
 	position: relative;
 	display:inline-block;
-}
-.gallery{
-	text-align:left;
-	padding-left: 40px;
-	font-family: Libre Baskerville;
 }
 img {
     width: 100%;
